@@ -7,7 +7,10 @@ public class DeathStrings : MonoBehaviour {
     public TextAsset textAsset;
 
 	// Use this for initialization
-	void Start () {
+	private void Start ()
+    {
+        deathText = new Dictionary<string, List<string>>();
+
         string allText = textAsset.text;
         string[] tempArray = allText.Split('\n');
 
@@ -43,10 +46,4 @@ public class DeathStrings : MonoBehaviour {
         // in case deathType is not contained in the Dictionary, then returns null;
         return null;
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
 }

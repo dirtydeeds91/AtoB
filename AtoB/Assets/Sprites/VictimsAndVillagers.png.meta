@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3f71f8ae4d7afb04286a5d5581a0fba6
-timeCreated: 1484937527
+timeCreated: 1484943764
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -24,7 +24,7 @@ TextureImporter:
     21300034: VictimsAndVillagers_19
     21300036: VictimsAndVillagers_22
     21300038: VictimsAndVillagers_23
-    21300040: VictimsAndVillagers_24
+    21300040: Trump
     21300042: VictimsAndVillagers_25
     21300044: VictimsAndVillagers_26
     21300046: VictimsAndVillagers_27
@@ -74,25 +74,26 @@ TextureImporter:
     21300134: VictimsAndVillagers_84
     21300136: VictimsAndVillagers_85
     21300138: VictimsAndVillagers_86
-    21300140: VictimsAndVillagers_87
+    21300140: Character_Death
     21300142: VictimsAndVillagers_88
     21300144: VictimsAndVillagers_89
     21300146: VictimsAndVillagers_90
     21300148: VictimsAndVillagers_91
     21300150: VictimsAndVillagers_92
     21300152: VictimsAndVillagers_94
-    21300154: VictimsAndVillagers_95
-    21300156: VictimsAndVillagers_96
-    21300158: VictimsAndVillagers_97
-    21300160: VictimsAndVillagers_98
-    21300162: VictimsAndVillagers_99
+    21300154: Character_Run_0
+    21300156: Character_Run_1
+    21300158: Character_Run_2
+    21300160: Character_Jump_1
+    21300162: Character_Jump_2
     21300164: VictimsAndVillagers_100
     21300166: VictimsAndVillagers_101
     21300168: VictimsAndVillagers_112
-    21300170: VictimsAndVillagers_113
+    21300170: Trump
     21300172: VictimsAndVillagers_122
     21300174: VictimsAndVillagers_123
     21300176: VictimsAndVillagers_124
+    21300178: VictimsAndVillagers_24
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -116,7 +117,7 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
-  maxTextureSize: 1024
+  maxTextureSize: 2048
   textureSettings:
     filterMode: 2
     aniso: 16
@@ -402,7 +403,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: VictimsAndVillagers_24
+      name: Trump
       rect:
         serializedVersion: 2
         x: 32
@@ -1052,7 +1053,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: VictimsAndVillagers_87
+      name: Character_Death
       rect:
         serializedVersion: 2
         x: 0
@@ -1143,7 +1144,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: VictimsAndVillagers_95
+      name: Character_Run_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1156,7 +1157,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: VictimsAndVillagers_96
+      name: Character_Run_1
       rect:
         serializedVersion: 2
         x: 16
@@ -1169,7 +1170,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: VictimsAndVillagers_97
+      name: Character_Run_2
       rect:
         serializedVersion: 2
         x: 32
@@ -1182,7 +1183,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: VictimsAndVillagers_98
+      name: Character_Jump_1
       rect:
         serializedVersion: 2
         x: 48
@@ -1195,7 +1196,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: VictimsAndVillagers_99
+      name: Character_Jump_2
       rect:
         serializedVersion: 2
         x: 64
@@ -1247,7 +1248,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: VictimsAndVillagers_113
+      name: VictimsAndVillagers_24
       rect:
         serializedVersion: 2
         x: 144
