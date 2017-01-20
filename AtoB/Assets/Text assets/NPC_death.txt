@@ -8,7 +8,6 @@ Natural death, "It was a dark and stormy night. You approached your duplex (ridi
 Natural death, "Clear skies. Drone strike."
 Natural death, "You were suffocated in your sleep by a playfull yet witless nephew. Your children currenly fight over that will you never bothered to write."
 Natural death, "Remember that guy who got eated by bears some ten years ago? Well, like that, only at the zoo. Failed selfie attempt."
-
 Friendly stranger, "While on the tram, a friendly stranger offers a night of wonderous adventure. You died of AIDS. L0L"
 Friendly stranger, "After months of chatting with sSweeTtKittYy91 on the camsite you finally decided to pay her(?) a visist. While in Romania you get in an altercation with sSweeTtKittYy91 five gym going buddies over refusing to empty your bank account. You die in a damp alleyway due to internal bleeding."
 Friendly stranger, "A man asks you for five minutes in order to discuss your lord and saviour. You join the Cult of Jesus's Reborn Believers and actually buy into the bullshit. Mass suicide."
@@ -20,7 +19,6 @@ Friendly stranger, "Your bro comes back from spring break. 'Bruv, I got these pi
 Unfriendly stranger, "You're listening to your favourite Katty Perry album while waiting for the bus to arrive. A mad woman shoves you with retard-strength in front of a speeding yet very silent Tesla Model S. This is the most style you could ever hope to have."
 Friendly stranger, "An attractive lady with a whip says: The safety word is 'pneumonoultramicroscopicsilicovolcanoconiosis'."
 Friendly stranger, "Death by savage beating in a same-sex environment by a british academic authority."
-
 Cosmic, "A voice from the beyond resonates in your head. It shreds through your sanity. You died."
 Cosmic, "The dusty tome is before you. Arcane symbols shift and dance before your eyes. But look, a readable passage! You are compelled to run your hand through a meatgrinder while contemplating your porcine resemblance."
 Cosmic, "This sky and the comsos are one! Purge these streets of foul beasts."
@@ -32,5 +30,4 @@ Cosmic, "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn. Tharanak sll'ha ily
 Cosmic, "Look mom, tentacles from the void!"
 Cosmic, "It's rather rapturous!"
 Cosmic, "Half-Life 3 Confirmed!!!"
-
 Environmental, "You got run over by a truck."  

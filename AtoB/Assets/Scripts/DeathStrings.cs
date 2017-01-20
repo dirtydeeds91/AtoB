@@ -16,17 +16,19 @@ public class DeathStrings : MonoBehaviour {
 
         for (int i = 0; i < tempArray.Length; i++)
         {
-            string[] finalSplit = tempArray[i].Split(',');
+            int indexOfFirstComma = tempArray[i].IndexOf(',');
+            string deathType = tempArray[i].Substring(0, indexOfFirstComma);
+            string flavor = tempArray[i].Substring(indexOfFirstComma + 1);
 
-            if (deathText.ContainsKey(finalSplit[0]))
+            if (deathText.ContainsKey(deathType))
             {
-                deathText[finalSplit[0]].Add(finalSplit[1]);
+                deathText[deathType].Add(flavor);
             }
             else
             {
                 List<string> firstList = new List<string>();
-                firstList.Add(finalSplit[1]); 
-                deathText.Add(finalSplit[0], firstList); 
+                firstList.Add(flavor); 
+                deathText.Add(deathType, firstList); 
             }
         }
 	}
@@ -39,7 +41,7 @@ public class DeathStrings : MonoBehaviour {
         {        
         listToReturn = deathText[deathType];
 
-        int randomizer = Random.Range(0, listToReturn.Count - 1);
+        int randomizer = Random.Range(0, listToReturn.Count);
 
             return listToReturn[randomizer];
         }
