@@ -1,0 +1,4 @@
+natural death, "You are blessed by an unseen benevolent God. You died in your bed after a long and fruitful life."
+std, "You died of {0}. L0L"
+cosmic, "A voice from the beyond resonates in your head. It shreds through your sanity. You died."
+external,  
