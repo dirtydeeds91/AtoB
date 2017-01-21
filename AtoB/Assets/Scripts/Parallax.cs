@@ -13,6 +13,8 @@ public class Parallax : MonoBehaviour
     private List<ParallaxComponent> spawnedBuildings;
     private List<ParallaxComponent> spawnedFarBuildings;
 
+    public StopMovement stopMovement;
+
     private void OnEnable()
     {
         this.spawnedBackgrounds = new List<ParallaxComponent>();
@@ -22,14 +24,17 @@ public class Parallax : MonoBehaviour
         ParallaxComponent background = Instantiate(this.backgroundPrefabs[0]);
         background.transform.SetParent(this.transform);
         this.spawnedBackgrounds.Add(background);
+        stopMovement.AddObject(background);
 
         ParallaxComponent building = Instantiate(this.backgroundPrefabs[1]);
         building.transform.SetParent(this.transform);
         this.spawnedBuildings.Add(building);
+        stopMovement.AddObject(building);
 
         ParallaxComponent spawnedFarBuilding = Instantiate(this.backgroundPrefabs[2]);
         spawnedFarBuilding.transform.SetParent(this.transform);
         this.spawnedFarBuildings.Add(spawnedFarBuilding);
+        stopMovement.AddObject(spawnedFarBuilding);
     }
 
     private void Update()
@@ -49,6 +54,7 @@ public class Parallax : MonoBehaviour
                 spawnedElement.transform.SetParent(this.transform);
                 spawnedElement.transform.position = new Vector2(this.xSize, 0f);
                 spawned.Add(spawnedElement);
+                stopMovement.AddObject(spawnedElement);
             }
         }
 
