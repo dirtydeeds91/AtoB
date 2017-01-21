@@ -1,0 +1,14 @@
+Credits
+Lead programmer, Ivan Mladenov
+Unity programmer, Ivan Mladenov
+
+Creative lead, Vlad Limbean
+Assistant programmer, Vlad Limbean
+
+Build with Unity
+
+Special thanks to: 
+
+Global Game Jam 2017
+OpenGameArt.org
+You. Yes, you're a great person.
