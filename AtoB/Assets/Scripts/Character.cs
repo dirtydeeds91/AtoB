@@ -12,12 +12,14 @@ public class Character : MonoBehaviour
 
     private bool isJumping;
     private bool isPlaying;
+    public StopMovement stopMovement;
 
     private void Start()
     {
         rigidBody.velocity = new Vector2(0f, 0f);
         this.isPlaying = false;
         this.isJumping = false;
+        stopMovement.OnGameEnd();
     }
 
     private void Update()
@@ -28,6 +30,7 @@ public class Character : MonoBehaviour
             {
                 animator.SetTrigger("Start");
                 this.isPlaying = true;
+                stopMovement.OnGameStart();
                 return;
             }
 
@@ -54,6 +57,11 @@ public class Character : MonoBehaviour
             this.isJumping = false;
             return;
         }
+        else if (other.tag == "Flasher")
+        {
+            Flasher flasher = other.GetComponent<Flasher>();
+            flasher.StartAnimation();
+        }
 
         Debug.Log("Died");
         Die();
@@ -62,5 +70,6 @@ public class Character : MonoBehaviour
     public void Die()
     {
         animator.SetTrigger("Death");
+        stopMovement.OnGameEnd();
     }
 }
