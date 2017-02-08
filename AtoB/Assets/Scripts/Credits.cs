@@ -11,7 +11,6 @@ public class Credits : MonoBehaviour {
     // Use this for initialization
     void Start () {
         string allText = textAsset.text;
-
 	}
 
     public string getCredits(string allText)
